@@ -5,7 +5,7 @@ Not quite the flow as I'd like it.
 
 I wanted to remove the "Mollie choice" from this flow and present the client directly with actual payment methods. To achieve this I've created a new module for each of Mollie's payment methods.
 
-***Each module requires the by default included Mollie module to be present (may be deactivated) as the new classes extend the Mollie class***
+***Each module requires the by default included Mollie module to be present and activated as the new classes extend the Mollie class. The availability however can be set to Disabled, to hide it from customers***
 
 ## Advantages
 - Less confusing for clients
